@@ -50,9 +50,9 @@ def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   asy.Logo().log()
-  server = requests.get('https://pastebin.com/raw/M1amSmyH').text  
+  server = requests.get('https://pastebin.com/raw/bs6RnXNs').text  
   try:
-    httpCaht = requests.get("https://pastebin.com/raw/M1amSmyH").text
+    httpCaht = requests.get("https://pastebin.com/raw/bs6RnXNs").text
     if id in httpCaht:
       prints(Panel("""[green]YOUR LICENSE ACTIVATED...![/]
 [blue]Thanks for Using Our Script . Please Use Wisely[/]
